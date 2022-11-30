@@ -1,0 +1,52 @@
+PROJECT WALKTHROUGH STEPS BY STEPS
+
+#######################################################################
+- Required packages:
+npm i @mui/material @emotion/react @emotion/styled @mui/x-data-grid @mui/icons-material react-router-dom@6 
+react-pro-sidebar formik yup @fullcalendar/core @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/list 
+@nivo/core @nivo/pie @nivo/line @nivo/bar @nivo/geo
+
+#######################################################################
+- Reset margin with * in CSS
+- google fonts: Roboto
+// I left the other css properties for later, it will be easier to style the components when we got them//
+
+#######################################################################
+- Get mock data from chatGPT
+
+#######################################################################
+- Create all the neccessary directories. Basic structure of the project
+- Balance between having so many folders deeply nested folders 
+
+#######################################################################
+LIGHT/DARK THEME
+https://mui.com/material-ui/customization/dark-mode/#toggling-color-mode
+- MUI docs + React docs
+-Steps:
+theme.js: 
+  + create context object (ColorModeContext)
+  + custom hook (useMode): return [theme, colorMode] theme value to pass in MUI ThemeProvider object. colorMode value to pass in React ColorModeContext.Provider object 
+app.js:
+  + import useMode hook to get [theme, colorMode]
+  + pass [theme, colorMode] to ThemeProvider and ColorModeContext.Provider
+TopBar.js
+  + useTheme(): get theme from MUI ThemeProvider components.
+  + useContext(): get context from higher level React component (ColorModeContext.Provider).
+
+use default MUI pallet.
+potential upgrades: custome pallete, color token. 
+
+#######################################################################
+Router, SiderBar. 
+
+react-pro-sidebar tutorial:
+https://blog.logrocket.com/creating-responsive-sidebar-react-mui/
+https://dev.to/logrocket/create-smooth-sidebars-with-react-pro-sidebar-and-mui-3k10
+
+
+
+#######################################################################
+https://dev.to/jackherizsmith/making-a-progress-circle-in-react-3o65
+
+dark:
+https://coolors.co/palette/171717-5d5d5d-ececec-ffffff-fef000-1b8a6b
