@@ -1,6 +1,6 @@
 # React Admin Dashboard
 
-This is a React admin dashboard project built from scratch. It utilizes various technologies such as React, Material-UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid to create a comprehensive application.
+This is a React admin dashboard project built from scratch. It utilizes various technologies such as React, Material-UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid to create a comprehensive front end application.
 
 ## Screenshots
 
