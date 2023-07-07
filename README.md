@@ -52,7 +52,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ![image](https://github.com/tnttb79/dashboar-frontend_5_15-6_29/assets/90600992/fe228820-7f08-4a03-bb5f-2c19e1828085)
 
-## Prototype/
+## Prototype
 https://wvxto1-3000.csb.app/
 
 ## CodeSandBox
