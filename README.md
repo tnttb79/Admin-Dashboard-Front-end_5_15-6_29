@@ -2,6 +2,16 @@
 
 This is a React admin dashboard project built from scratch. It utilizes various technologies such as React, Material-UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid to create a comprehensive application.
 
+## Screenshots
+
+![image](https://github.com/tnttb79/dashboar-frontend_5_15-6_29/assets/90600992/fe228820-7f08-4a03-bb5f-2c19e1828085)
+
+## Prototype
+https://wvxto1-3000.csb.app/
+
+## CodeSandBox
+https://codesandbox.io/p/sandbox/dashboar-frontend-5-15-6-29-wvxto1?file=%2Fdashboard-frontend%2Fpackage.json%3A14%2C16
+
 ## Description
 
 The React Admin Dashboard is a powerful and customizable dashboard front-end designed for managing and monitoring data in an efficient and user-friendly manner. It includes features like light and dark mode, multiple chart types, data tables, FAQ page, form page, and calendar integration.
@@ -47,13 +57,3 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-## Screenshots
-
-![image](https://github.com/tnttb79/dashboar-frontend_5_15-6_29/assets/90600992/fe228820-7f08-4a03-bb5f-2c19e1828085)
-
-## Prototype
-https://wvxto1-3000.csb.app/
-
-## CodeSandBox
-https://codesandbox.io/p/sandbox/dashboar-frontend-5-15-6-29-wvxto1?file=%2Fdashboard-frontend%2Fpackage.json%3A14%2C16
